@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings"],
+      "responses": ["Hello! How can I help you?", "Hi there! What do you need assistance with?", "Greetings! How may I be of service?"]
+    },
+    {
+      "tag": "course_info",
+      "patterns": ["Tell me about course", "Course information", "What is the course", "Course details"],
+      "responses": ["Here's the information about the course:"]
+    },
+    {
+      "tag": "faculty_info",
+      "patterns": ["Who is professor", "Tell me about faculty", "Faculty information", "Instructor details"],
+      "responses": ["Here's the information about the faculty member:"]
+    },
+    {
+      "tag": "upcoming_events",
+      "patterns": ["What events are coming up", "Upcoming events", "Future events", "Event schedule"],
+      "responses": ["Here are the upcoming events:"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Thanks, bye", "Exit"],
+      "responses": ["Goodbye! Have a great day!", "See you later. Take care!", "Bye! Feel free to return if you have more questions."]
+    }
+  ]
+}
